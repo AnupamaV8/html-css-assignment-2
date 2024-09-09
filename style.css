@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  justify-content: center;
 }
 body {
   display: flexbox;
@@ -20,7 +19,7 @@ body {
   justify-items: center;
   width: 820px;
   height: 500px;
-  padding: 50px;
+  border-radius: 20px;
 }
 h1 {
   font-style: Big Shoulders Display;
@@ -72,7 +71,7 @@ button {
   color: hsl(179, 100%, 13%);
 }
 .flex_container > * {
-  padding: 20px;
+  padding: 40px;
 }
 p {
   line-height: 2;
