@@ -58,6 +58,7 @@ button {
   padding: 20px;
   color: hsla(0, 0%, 100%, 0.75);
   overflow: hidden;
+  border-color: hsla(0, 0%, 100%, 0.75);
   border-radius: 33px;
   align-items: center;
 }
