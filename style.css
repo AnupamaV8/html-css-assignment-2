@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+body {
+  display: flexbox;
+  font-size: 15px;
+}
+.product_container {
+  color: hsl(0, 0%, 95%);
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  padding: 250px;
+}
+.flex_container {
+  display: flex;
+  overflow: hidden;
+  justify-items: center;
+  width: 820px;
+  height: 500px;
+  padding: 50px;
+}
+h1 {
+  font-style: Big Shoulders Display;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+.first_frame {
+  display: flex;
+  background-color: hsl(31, 77%, 52%);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.Second_frame {
+  display: flex;
+  background-color: hsl(184, 100%, 22%);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.third_frame {
+  display: flex;
+  background-color: hsl(179, 100%, 13%);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.text_body {
+  font-style: Lexend Deca;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+button {
+  display: flex;
+  padding: 20px;
+  color: hsla(0, 0%, 100%, 0.75);
+  overflow: hidden;
+  border-radius: 50px;
+  align-items: center;
+}
+.car1 {
+  color: hsl(31, 77%, 52%);
+}
+.car2 {
+  color: hsl(184, 100%, 22%);
+}
+.car3 {
+  color: hsl(179, 100%, 13%);
+}
+.flex_container > * {
+  padding: 20px;
+}
+p {
+  line-height: 2;
+}
