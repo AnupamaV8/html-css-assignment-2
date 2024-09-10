@@ -3,12 +3,14 @@
   padding: 0;
 }
 body {
-  display: flexbox;
+  display: flex;
   font-size: 15px;
+  justify-content: center;
+  align-items: center;
 }
 .product_container {
   color: hsl(0, 0%, 95%);
-  display: flexbox;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 250px;
@@ -72,7 +74,7 @@ button {
   color: hsl(179, 100%, 13%);
 }
 .flex_container > * {
-  padding: 40px;
+  padding: 60px;
 }
 p {
   line-height: 2;
