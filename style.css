@@ -51,10 +51,10 @@ h1 {
 }
 button {
   color: hsla(0, 0%, 100%, 0.75);
-  /* border-color: hsla(0, 0%, 100%, 0.75); */
+  border-color: hsla(0, 0%, 100%, 0.75);
   border-radius: 20px;
-  max-width: 200px;
-  height: 48px;
+  /* max-width: 200px;
+  height: 48px; */
   flex-shrink: 0;
 }
 .car1 {
